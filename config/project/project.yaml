@@ -1,0 +1,22 @@
+dateModified: 1677005378
+email:
+  fromEmail: info@toastdesign.nl
+  fromName: 'Cultuur en Vliegwerk'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    ad571690-fe46-4d3a-bf58-327c58837400: Common # Common
+    bb0f3428-1448-478f-bf18-2d7e8af0fa9c: 'Cultuur en Vliegwerk' # Cultuur en Vliegwerk
+    c0f94bf8-c329-41cb-bd14-d6f8199f119c: 'Cultuur en Vliegwerk' # Cultuur en Vliegwerk
+system:
+  edition: solo
+  live: true
+  name: 'Cultuur en Vliegwerk'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
