@@ -1,13 +1,55 @@
-dateModified: 1677005378
+dateModified: 1677094489
 email:
   fromEmail: info@toastdesign.nl
   fromName: 'Cultuur en Vliegwerk'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    0fc6507d-4403-4b95-b7f9-ef10de7204f8: 'Project Categorie' # Project Categorie
+    9ee7d598-ae6f-4601-ae67-e7de75d123f0: 'Project Categories' # Project Categories
+    56b73635-1a71-4fc6-ad09-138bda9124ae: 'Project Jaar' # Project Jaar
+    06378d89-5874-4174-9ac9-153aef3b23c2: Heading # Heading
+    6388fb0a-b8b5-42dd-ba1c-254dd2653d24: Default # Default
+    a1bc2794-713b-434e-ac16-535b5c19b5b4: 'Project Fields' # Project Fields
     ad571690-fe46-4d3a-bf58-327c58837400: Common # Common
+    aed317fe-a2e1-40b5-a627-b4f569a41a79: Projecten # Projecten
+    b700afe9-fc73-473a-abce-42b71312bd39: 'Project Initiatief' # Project Initiatief
+    b875d1a0-df5b-473e-8045-505e795ed4b7: Content # Content
     bb0f3428-1448-478f-bf18-2d7e8af0fa9c: 'Cultuur en Vliegwerk' # Cultuur en Vliegwerk
     c0f94bf8-c329-41cb-bd14-d6f8199f119c: 'Cultuur en Vliegwerk' # Cultuur en Vliegwerk
+    cccd32b2-eba2-4975-852c-bcb5c39c785a: 'Korte samenvatting' # Korte samenvatting
+    cfbc23c5-b2a7-4f50-9633-6c678949a55c: Heading # Heading
+    d9486cad-8987-4d69-bfc5-b54564a77d2c: Homepage # Homepage
+    e00205f5-b2d3-4a4e-b37d-b0cefbecdb30: Homepage # Homepage
+plugins:
+  assetrev:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  blitz-recommendations:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.0
+  environment-label:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  position-fieldtype:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  templatecomments:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
 system:
   edition: solo
   live: true

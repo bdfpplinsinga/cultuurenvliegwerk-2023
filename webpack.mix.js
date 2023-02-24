@@ -14,14 +14,14 @@ mix
 	});
 
 // Run BrowserSync Locally, off by default
-// if (!mix.inProduction()) {
-// 	mix.browserSync({
-// 		// Set this to a variable in your .env file containing your local development URL:
-// 		proxy: process.env.PRIMARY_SITE_URL,
-// 		// Watch for any changes in assets/ and templates/ directories:
-// 		files: ['assets/**/*', 'templates/**/*'],
-// 	});
-// }
+if (!mix.inProduction()) {
+	mix.browserSync({
+		// Set this to a variable in your .env file containing your local development URL:
+		proxy: process.env.PRIMARY_SITE_URL,
+		// Watch for any changes in assets/ and templates/ directories:
+		files: ['assets/**/*', 'templates/**/*'],
+	});
+}
 
 // Only run in Production
 if (mix.inProduction()) {
