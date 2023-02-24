@@ -13,7 +13,7 @@ fieldLayouts:
             elementCondition: null
             id: null
             instructions: null
-            label: 'Project Titel'
+            label: Titel
             max: null
             min: null
             name: null
@@ -32,44 +32,37 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 0fc6507d-4403-4b95-b7f9-ef10de7204f8 # Project Categorie
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 3bdce894-5004-4262-898e-7464a28fe069
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: b700afe9-fc73-473a-abce-42b71312bd39 # Project Initiatief
             instructions: null
-            label: null
+            label: Initiatief
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 4aa0292e-1a32-4bdf-b796-3f4730c0b89c
             userCondition: null
             warning: null
-            width: 100
+            width: 75
           -
             elementCondition: null
             fieldUid: 56b73635-1a71-4fc6-ad09-138bda9124ae # Project Jaar
             instructions: null
-            label: null
+            label: Jaar
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: b2413b1b-aab7-4b5c-a613-474abf14d8fd
             userCondition: null
             warning: null
-            width: 100
+            width: 25
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: b2abb908-6be4-427d-8af1-646852a0167b
+            userCondition: null
           -
             elementCondition: null
             fieldUid: cccd32b2-eba2-4975-852c-bcb5c39c785a # Korte samenvatting
-            instructions: null
+            instructions: 'Dit is een korte samenvatting/introductie van het van het artikel. Probeer deze kort te houden ivm esthetisch oogpunt.'
             label: null
             required: false
             tip: null
@@ -78,6 +71,35 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 4fc1b32a-8527-47ff-96de-bf3308100958
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: f0cf9b4d-3805-46e1-8553-2cc5882ef651 # Project Image
+            instructions: null
+            label: Afbeelding
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0339ae5d-0354-4cf9-ac94-e1b1ba6eaa8c
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 0fc6507d-4403-4b95-b7f9-ef10de7204f8 # Project Categorie
+            instructions: null
+            label: Categorieën
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3bdce894-5004-4262-898e-7464a28fe069
+            userCondition: null
+            warning: null
+            width: 25
         name: Introductie
         uid: b7628eef-8df4-4271-924a-00f083e85032
         userCondition: null

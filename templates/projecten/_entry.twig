@@ -1,0 +1,11 @@
+{% extends '_layout' %}
+
+{% block content %}
+
+	{{include('_partials/project-header.twig', {
+	    title: entry.title,
+        excerpt: entry.excerpt,
+        image: entry.projectImage.one().getUrl('projectCard')
+	}, with_context = false)}}
+
+{% endblock %}

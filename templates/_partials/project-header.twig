@@ -1,0 +1,30 @@
+<section class="">
+
+	<div class="mx-auto max-w-7xl grid items-end gap-8 md:px-6 md:grid-cols-2">
+
+		{% if image is defined %}
+			<div class="">
+				<div class="relative h-96 lg:h-[540px] xl:h-[700px]">
+					<img class="object-cover w-full h-full " src="{{image}}">
+					<div class="absolute inset-4 top-auto bg-white p-4 grid">
+						<h3 class="order-last">Vestibulum id ligula porta felis euismod semper.</h3>
+						<h4 class="text-gray-500 text-sm mb-1">Egestas eget quam.</h4>
+					</div>
+				</div>
+			</div>
+		{% endif %}
+
+		<div class="max-md:mx-8">
+			<div>
+				{% if title is defined %}
+					<h1 class="text-4xl font-bold font-serif lg:text-5xl xl:text-7xl">{{title}}</h1>
+				{% endif %}
+				{% if excerpt is defined  %}
+					<div class="prose mt-4">{{excerpt}}</div>
+				{% endif %}
+			</div>
+		</div>
+
+	</div>
+
+</section>
