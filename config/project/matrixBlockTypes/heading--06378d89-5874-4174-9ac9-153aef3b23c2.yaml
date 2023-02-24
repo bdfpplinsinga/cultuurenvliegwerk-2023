@@ -1,0 +1,46 @@
+field: b875d1a0-df5b-473e-8045-505e795ed4b7 # Content
+fieldLayouts:
+  c4d3ac06-62fd-4f58-8a92-2529a3d5b031:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: cfbc23c5-b2a7-4f50-9633-6c678949a55c # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 11463ab7-9a4a-4674-8d2e-7d5240fcb124
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e913f30d-7ff5-4406-99cb-2e4409ee2b33
+        userCondition: null
+fields:
+  cfbc23c5-b2a7-4f50-9633-6c678949a55c: # Heading
+    columnSuffix: patowylu
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: heading
+name: Heading
+sortOrder: 1
