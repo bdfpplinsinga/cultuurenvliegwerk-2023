@@ -1,0 +1,15 @@
+<div class=" max-w-5xl mx-auto grid gap-4 my-4">
+{% for image in block.images.all() %}
+	<figure class="relative">
+		<img class="inline-block" src="{{image.url()}}" alt="{{ image.alt ? image.alt : image.title }}">
+		{% if image.imageCaption %}
+            <figcaption class="text-sm my-2 text-gray-800">
+                <span class="mr-2">{{ image.imageCaption }}</span>
+                {% if image.copyright %}
+                   <span class="text-gray-600"> &#169; {{ image.copyright }}</span>
+                {% endif %}
+            </figcaption>
+        {% endif %}
+	</figure>
+{% endfor %}
+</div>

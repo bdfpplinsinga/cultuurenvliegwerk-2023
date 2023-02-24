@@ -1,0 +1,19 @@
+columnSuffix: kaguscwi
+contentColumnType: string(240)
+fieldGroup: ad571690-fe46-4d3a-bf58-327c58837400 # Common
+handle: copyright
+instructions: null
+name: Copyright
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 60
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

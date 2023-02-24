@@ -8,4 +8,12 @@
         image: entry.projectImage.one().getUrl('projectCard')
 	}, with_context = false)}}
 
+	<hr class="my-16 md:my-20 lg:my-24">
+
+	<div class="mx-auto max-w-7xl px-8 my-16 md:my-20 lg:my-24">
+		{% for block in entry.pageBuilder.all() %}
+			{% include '_blocks/' ~ block.type.handle  %}
+		{% endfor %}
+	</div>
+
 {% endblock %}
