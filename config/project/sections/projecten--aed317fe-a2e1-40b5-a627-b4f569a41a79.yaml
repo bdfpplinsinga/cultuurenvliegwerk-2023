@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: projecten
+name: Projecten
+propagationMethod: all
+siteSettings:
+  c0f94bf8-c329-41cb-bd14-d6f8199f119c: # Cultuur en Vliegwerk
+    enabledByDefault: true
+    hasUrls: true
+    template: projecten/_entry
+    uriFormat: 'projecten/{slug}'
+type: channel

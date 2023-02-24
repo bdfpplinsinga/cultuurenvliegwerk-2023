@@ -1,0 +1,131 @@
+fieldLayouts:
+  672a15e7-0b62-4623-ba4b-c4ba9f72121b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: Titel
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ef1846f6-6b22-456a-a031-597d7790c216
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b700afe9-fc73-473a-abce-42b71312bd39 # Project Initiatief
+            instructions: null
+            label: Initiatief
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4aa0292e-1a32-4bdf-b796-3f4730c0b89c
+            userCondition: null
+            warning: null
+            width: 75
+          -
+            elementCondition: null
+            fieldUid: 56b73635-1a71-4fc6-ad09-138bda9124ae # Project Jaar
+            instructions: null
+            label: Jaar
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b2413b1b-aab7-4b5c-a613-474abf14d8fd
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: b2abb908-6be4-427d-8af1-646852a0167b
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: cccd32b2-eba2-4975-852c-bcb5c39c785a # Korte samenvatting
+            instructions: 'Dit is een korte samenvatting/introductie van het van het artikel. Probeer deze kort te houden ivm esthetisch oogpunt.'
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 39185767-fef7-4a82-a550-487812d9ccba
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 4fc1b32a-8527-47ff-96de-bf3308100958
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: f0cf9b4d-3805-46e1-8553-2cc5882ef651 # Project Image
+            instructions: null
+            label: Afbeelding
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0339ae5d-0354-4cf9-ac94-e1b1ba6eaa8c
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 0fc6507d-4403-4b95-b7f9-ef10de7204f8 # Project Categorie
+            instructions: null
+            label: Categorieën
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3bdce894-5004-4262-898e-7464a28fe069
+            userCondition: null
+            warning: null
+            width: 25
+        name: Introductie
+        uid: b7628eef-8df4-4271-924a-00f083e85032
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b875d1a0-df5b-473e-8045-505e795ed4b7 # Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 953ff4d8-2eef-4db2-8152-e3db4148630e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9b9fbba8-71fc-48ae-81ee-c832c97a8008
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: aed317fe-a2e1-40b5-a627-b4f569a41a79 # Projecten
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

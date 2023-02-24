@@ -1,0 +1,46 @@
+defaultPlacement: end
+fieldLayouts:
+  13786a8b-93b6-4604-870e-93055161166d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 4df47789-bf7a-4f31-91df-fc40af13a99c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bbf4a199-2964-4cce-8405-9ccd0ee98cec
+        userCondition: null
+handle: projectCategories
+name: 'Project Categories'
+siteSettings:
+  c0f94bf8-c329-41cb-bd14-d6f8199f119c: # Cultuur en Vliegwerk
+    hasUrls: true
+    template: null
+    uriFormat: 'project-categories/{slug}'
+structure:
+  maxLevels: null
+  uid: 6181054e-d255-4db5-b8a9-2b80e309d1e3

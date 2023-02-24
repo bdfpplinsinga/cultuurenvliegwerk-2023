@@ -1,0 +1,19 @@
+columnSuffix: gzskeiyd
+contentColumnType: text
+fieldGroup: ad571690-fe46-4d3a-bf58-327c58837400 # Common
+handle: projectInitiatief
+instructions: null
+name: 'Project Initiatief'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
