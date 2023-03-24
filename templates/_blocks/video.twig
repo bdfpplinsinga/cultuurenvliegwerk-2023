@@ -1,0 +1,15 @@
+<div class="my-8">
+    {{ block.videoUrl.render({
+            params: {
+                autoplay: 1,
+                rel: 0,
+                mute: 1,
+                loop: 1,
+                autopause: 1,
+            },
+            attributes: {
+                title: 'Main title',
+                'data-title': 'Some other title',
+            }
+    }) }}
+</div>

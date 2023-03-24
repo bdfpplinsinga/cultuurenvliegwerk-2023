@@ -1,4 +1,4 @@
-dateModified: 1677244653
+dateModified: 1679648108
 email:
   fromEmail: info@toastdesign.nl
   fromName: 'Cultuur en Vliegwerk'
@@ -21,10 +21,13 @@ fs:
 meta:
   __names__:
     0fc6507d-4403-4b95-b7f9-ef10de7204f8: 'Project Categorie' # Project Categorie
+    04ff3d9a-055b-413b-8900-1a7006af9a15: 'Video Url' # Video Url
     5d4625f0-6069-42f6-a3be-488cc4bc5abd: Text # Text
     8e9fdfe7-d2a5-4ee0-9701-8015b8b4ec98: Copy # Copy
     9ee7d598-ae6f-4601-ae67-e7de75d123f0: 'Project Categories' # Project Categories
+    47c1c167-9f0c-487e-9d47-08aaf56645ca: Video # Video
     56b73635-1a71-4fc6-ad09-138bda9124ae: 'Project Jaar' # Project Jaar
+    404a10a2-44e7-476b-98b5-3a58acb6e84d: Width # Width
     0733a6ef-9707-4045-8158-e1ed54ab6b85: 'Project Card' # Project Card
     778df22c-7dd5-432c-a3f0-43c860ee3c73: Copyright # Copyright
     06378d89-5874-4174-9ac9-153aef3b23c2: Heading # Heading
@@ -60,6 +63,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  oembed:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
   position-fieldtype:
     edition: standard
     enabled: true
@@ -80,7 +87,7 @@ system:
   edition: solo
   live: true
   name: 'Cultuur en Vliegwerk'
-  schemaVersion: 4.0.0.9
+  schemaVersion: 4.4.0.4
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
