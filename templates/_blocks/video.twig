@@ -1,0 +1,30 @@
+{% switch block.width %}
+	{% case "small" %}
+		{% set width = 'max-w-2xl' %}
+	{% case "medium" %}
+		{% set width = 'max-w-3xl' %}
+	{% case "large" %}
+		{% set width = 'max-w-4xl' %}
+	{% case "extraLarge" %}
+		{% set width = 'max-w-5xl' %}
+	{% case "full" %}
+		{% set width = 'max-w-6xl' %}
+	{% default %}
+		{% set width = 'max-w-7xl' %}
+{% endswitch %}
+
+<div class="{{width}} mx-auto my-16">
+    {{ block.videoUrl.render({
+            params: {
+                autoplay: 1,
+                rel: 0,
+                mute: 1,
+                loop: 1,
+                autopause: 1,
+            },
+            attributes: {
+                title: 'Main title',
+                'data-title': 'Some other title',
+            }
+    }) }}
+</div>

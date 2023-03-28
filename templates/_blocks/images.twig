@@ -1,0 +1,32 @@
+{% switch block.width %}
+	{% case "small" %}
+		{% set width = 'max-w-2xl' %}
+	{% case "medium" %}
+		{% set width = 'max-w-3xl' %}
+	{% case "large" %}
+		{% set width = 'max-w-4xl' %}
+	{% case "extraLarge" %}
+		{% set width = 'max-w-5xl' %}
+	{% case "full" %}
+		{% set width = 'max-w-6xl' %}
+	{% default %}
+		{% set width = 'max-w-7xl' %}
+{% endswitch %}
+
+<div class="{{width}} mx-auto grid gap-4 my-16 ">
+	{% for image in block.images.all() %}
+		<figure class="relative">
+			<img class="inline-block" src="{{image.url()}}" alt="{{ image.alt ? image.alt : image.title }}">
+			{% if image.imageCaption %}
+				<figcaption class="text-sm my-2 text-gray-800">
+					<span class="mr-2">{{ image.imageCaption }}</span>
+					{% if image.copyright %}
+						<span class="text-gray-600">
+							&#169;
+							{{ image.copyright }}</span>
+					{% endif %}
+				</figcaption>
+			{% endif %}
+		</figure>
+	{% endfor %}
+</div>

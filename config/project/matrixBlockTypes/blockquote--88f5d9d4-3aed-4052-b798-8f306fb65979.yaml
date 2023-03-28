@@ -1,0 +1,105 @@
+field: b875d1a0-df5b-473e-8045-505e795ed4b7 # Page Builder
+fieldLayouts:
+  a0ecd653-3180-423a-adaa-d92759c11d9c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6038313c-8132-4300-998e-6b45ab55eafc # Quote
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7f7269a2-7cb9-419c-a60f-7d32270463f0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9d1f453d-c48e-4799-a995-59058a972669 # Quoter
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cfbe7eaa-daa6-4e07-8f79-aa028c04516c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b25de643-7521-4365-b5db-98f36eaa4f98 # Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a6e1eb03-e97f-451d-a721-31018712fa16
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d89e56a8-2171-491f-a17f-92447c485fb6
+        userCondition: null
+fields:
+  9d1f453d-c48e-4799-a995-59058a972669: # Quoter
+    columnSuffix: nrudfxzf
+    contentColumnType: text
+    fieldGroup: null
+    handle: quoter
+    instructions: 'Who said this?'
+    name: Quoter
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6038313c-8132-4300-998e-6b45ab55eafc: # Quote
+    columnSuffix: ksygrqxz
+    contentColumnType: text
+    fieldGroup: null
+    handle: quote
+    instructions: null
+    name: Quote
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b25de643-7521-4365-b5db-98f36eaa4f98: # Width
+    columnSuffix: regavaab
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: width
+    instructions: null
+    name: Width
+    searchable: false
+    settings:
+      default: false
+      offLabel: Wide
+      onLabel: Small
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: blockquote
+name: Blockquote
+sortOrder: 5

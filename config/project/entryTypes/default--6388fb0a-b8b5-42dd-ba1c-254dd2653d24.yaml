@@ -108,7 +108,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: b875d1a0-df5b-473e-8045-505e795ed4b7 # Content
+            fieldUid: b875d1a0-df5b-473e-8045-505e795ed4b7 # Page Builder
             instructions: null
             label: null
             required: false

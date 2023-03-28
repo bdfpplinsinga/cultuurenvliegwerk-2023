@@ -28,7 +28,8 @@
 		"putyourlightson/craft-blitz-recommendations": "^2.1.1",
 		"sebastianlenz/linkfield": "^2.1.5",
 		"topshelfcraft/environment-label": "^4.0.2",
-		"vlucas/phpdotenv": "^5.5"
+		"vlucas/phpdotenv": "^5.5",
+		"wrav/oembed": "2.3.0"
 	},
 	"require-dev": {
 		"craftcms/generator": "^1.2.2",

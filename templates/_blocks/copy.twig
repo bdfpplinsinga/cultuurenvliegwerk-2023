@@ -1,0 +1,14 @@
+{% set headings = {
+    root: 'prose-headings:font-serif',
+    h1: 'prose-h1:text-6xl',
+    h2: 'prose-h2:text-5xl',
+    h3: 'prose-h3:text-4xl',
+    h4: 'prose-h4:text-3xl',
+    h5: 'prose-h5:text-2l',
+} %}
+
+{% set class = headings|join(' ') %}
+
+<div class="prose max-w-2xl mx-auto {{class}} ">
+    {{block.copyContent}}
+</div>

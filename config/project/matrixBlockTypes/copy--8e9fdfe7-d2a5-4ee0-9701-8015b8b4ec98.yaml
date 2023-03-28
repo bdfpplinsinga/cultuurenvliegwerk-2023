@@ -1,0 +1,54 @@
+field: b875d1a0-df5b-473e-8045-505e795ed4b7 # Page Builder
+fieldLayouts:
+  dd9c9b50-de0b-4b8f-a2f6-8118c5ab9c04:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5d4625f0-6069-42f6-a3be-488cc4bc5abd # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7827bf8e-6d01-4052-a80b-3253bc42b317
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fefb66b2-2ae2-449e-8e23-f3f0daefdce2
+        userCondition: null
+fields:
+  5d4625f0-6069-42f6-a3be-488cc4bc5abd: # Text
+    columnSuffix: eosfomvp
+    contentColumnType: text
+    fieldGroup: null
+    handle: copyContent
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: copy
+name: Copy
+sortOrder: 2
