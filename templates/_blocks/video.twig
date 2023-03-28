@@ -1,4 +1,19 @@
-<div class="my-8">
+{% switch block.width %}
+	{% case "small" %}
+		{% set width = 'max-w-2xl' %}
+	{% case "medium" %}
+		{% set width = 'max-w-3xl' %}
+	{% case "large" %}
+		{% set width = 'max-w-4xl' %}
+	{% case "extraLarge" %}
+		{% set width = 'max-w-5xl' %}
+	{% case "full" %}
+		{% set width = 'max-w-6xl' %}
+	{% default %}
+		{% set width = 'max-w-7xl' %}
+{% endswitch %}
+
+<div class="{{width}} mx-auto my-16">
     {{ block.videoUrl.render({
             params: {
                 autoplay: 1,

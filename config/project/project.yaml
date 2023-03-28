@@ -1,4 +1,4 @@
-dateModified: 1679648108
+dateModified: 1679650185
 email:
   fromEmail: info@toastdesign.nl
   fromName: 'Cultuur en Vliegwerk'
@@ -24,23 +24,28 @@ meta:
     04ff3d9a-055b-413b-8900-1a7006af9a15: 'Video Url' # Video Url
     5d4625f0-6069-42f6-a3be-488cc4bc5abd: Text # Text
     8e9fdfe7-d2a5-4ee0-9701-8015b8b4ec98: Copy # Copy
+    9d1f453d-c48e-4799-a995-59058a972669: Quoter # Quoter
     9ee7d598-ae6f-4601-ae67-e7de75d123f0: 'Project Categories' # Project Categories
     47c1c167-9f0c-487e-9d47-08aaf56645ca: Video # Video
     56b73635-1a71-4fc6-ad09-138bda9124ae: 'Project Jaar' # Project Jaar
+    88f5d9d4-3aed-4052-b798-8f306fb65979: Blockquote # Blockquote
     404a10a2-44e7-476b-98b5-3a58acb6e84d: Width # Width
     0733a6ef-9707-4045-8158-e1ed54ab6b85: 'Project Card' # Project Card
     778df22c-7dd5-432c-a3f0-43c860ee3c73: Copyright # Copyright
     06378d89-5874-4174-9ac9-153aef3b23c2: Heading # Heading
     6388fb0a-b8b5-42dd-ba1c-254dd2653d24: Default # Default
     62070f04-26df-43ce-b935-2c7d70a0c875: Images # Images
+    6038313c-8132-4300-998e-6b45ab55eafc: Quote # Quote
     a1bc2794-713b-434e-ac16-535b5c19b5b4: 'Project Fields' # Project Fields
     ad571690-fe46-4d3a-bf58-327c58837400: Common # Common
     aed317fe-a2e1-40b5-a627-b4f569a41a79: Projecten # Projecten
     b1f53ef2-579f-4c8b-8722-b8c8f116cc17: 'Featured Images' # Featured Images
+    b25de643-7521-4365-b5db-98f36eaa4f98: Width # Width
     b700afe9-fc73-473a-abce-42b71312bd39: 'Project Initiatief' # Project Initiatief
     b875d1a0-df5b-473e-8045-505e795ed4b7: 'Page Builder' # Page Builder
     bb0f3428-1448-478f-bf18-2d7e8af0fa9c: 'Cultuur en Vliegwerk' # Cultuur en Vliegwerk
     bb92063f-31dc-4c5b-bcf5-747098f5f848: 'Image Caption' # Image Caption
+    bc431e59-9e63-47fb-97c8-095af0bdcf3e: Width # Width
     c0f94bf8-c329-41cb-bd14-d6f8199f119c: 'Cultuur en Vliegwerk' # Cultuur en Vliegwerk
     cccd32b2-eba2-4975-852c-bcb5c39c785a: 'Korte samenvatting' # Korte samenvatting
     cfbc23c5-b2a7-4f50-9633-6c678949a55c: Text # Text
